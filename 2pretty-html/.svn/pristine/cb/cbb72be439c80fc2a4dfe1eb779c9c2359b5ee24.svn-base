@@ -1,0 +1,84 @@
+.grid {
+	max-width: 96em;
+	list-style: none;
+	margin: 0px auto;
+	padding: 0;
+}
+
+.grid li {
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 25%;
+	opacity: 0;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+	opacity: 1;
+}
+
+.grid li a,
+.grid li img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+	.grid li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.grid li {
+		width: 100%;
+	}
+}
+
+
+
+/**/
+
+.card {
+  
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    -webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+    opacity: 0;
+}
+ 
+.card.appeared{
+   -webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(1400px) translateY(1300px) rotateX(-90deg);
+	-moz-transform: translateZ(1400px) translateY(1300px) rotateX(-90deg);
+	transform: translateZ(1400px) translateY(1300px) rotateX(-90deg);
+	-webkit-animation: fallPerspective .8s ease-in-out forwards;
+	-moz-animation: fallPerspective .8s ease-in-out forwards;
+	animation: fallPerspective .8s ease-in-out forwards;
+    opacity: 1;
+}
+
+@-webkit-keyframes fallPerspective {
+100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@-moz-keyframes fallPerspective {
+	100% { -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@keyframes fallPerspective {
+	100% { transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+

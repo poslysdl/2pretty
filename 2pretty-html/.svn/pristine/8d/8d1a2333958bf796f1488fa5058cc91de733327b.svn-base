@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8" />
+<title>2Pretty</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<meta name="MobileOptimized" content="320">
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/2prettyicon/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css" />
+<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css" />
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/css/style-2pretty.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/animate2.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-boxed">
+<!-- BEGIN HEADER -->
+
+<div id="top-shadow" class="header navbar navbar-inverse navbar-fixed-top"> 
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="header-inner container paddmore"> 
+    
+    <!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+    <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <img src="assets/img/menu-toggler.png" alt="" /> </a> 
+    <!-- END RESPONSIVE MENU TOGGLER --> 
+    
+    <!-- BEGIN LOGO --> 
+    <a class="navbar-brand" href="index.html" >
+    <div class="fs1" aria-hidden="true" data-icon="&#xe0ee;"></div>
+    </a> 
+    <!-- END LOGO --> 
+    <!--TOP MENU-->
+    <ul class="nav navbar-nav pull-left hidden-xs hidden-small">
+      <li><a class="menu" href="#">Home</a></li>
+      <li><a class="menu" href="#">Forum</a></li>
+      <li><a class="menu" href="#">Pretty-Blog</a></li>
+    </ul>
+    <!--END TOP MENU--> 
+    
+    <!-- BEGIN TOP NAVIGATION MENU -->
+    <ul class="nav navbar-nav pull-right">
+      
+      <!-- BEGIN SIGNIN DROPDOWN -->
+      <li class="dropdown" > <a href="#" class="dropdown-toggle sign-inhead" data-toggle="dropdown" data-hover="dropdown"
+                  data-close-others="true"> Sign in</a>
+        <ul class="dropdown-menu signup">
+          <li><span>Sign in with</span></li>
+          <li>
+            <button type="button" class="btn faceS" >Facebook</button>
+          </li>
+          <li>
+            <button type="button" class="btn twistS" >Twitter</button>
+          </li>
+          <li>
+            <button type="button" class="btn vkS" >VK</button>
+          </li>
+          <li>
+            <button type="button" class="btn meoS" data-toggle="modal" href="#sign-in">Email</button>
+          </li>
+        </ul>
+      </li>
+      <!-- END SIGNIN DROPDOWN --> 
+      <!-- BEGIN SIGN UP DROPDOWN -->
+      <li class="dropdown user"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+        <button type="button" class="btn blue sign-up"  data-dismiss="modal">Sign Up</button>
+        </a>
+        <ul class="dropdown-menu signup">
+          <li><span>Sign UP with</span></li>
+          <li>
+            <button type="button" class="btn faceS" >Facebook</button>
+          </li>
+          <li>
+            <button type="button" class="btn twistS" >Twitter</button>
+          </li>
+          <li>
+            <button type="button" class="btn vkS" >VK</button>
+          </li>
+          <li>
+            <button type="button" class="btn meoS" data-toggle="modal" href="#sign-up">Email</button>
+          </li>
+        </ul>
+      </li>
+      <!-- END USER LOGIN DROPDOWN --> 
+      <!-- BEGIN SEARCH FROM --> 
+      
+      <!-- BEGIN SEARCH FROM -->
+    </ul>
+    <!-- END TOP NAVIGATION MENU --> 
+  </div>
+  <!-- END TOP NAVIGATION BAR --> 
+</div>
+<!-- END HEADER --> 
+
+<!--SUB HEADER--> 
+
+<!--end sub header-->
+
+<div class="clearfix"></div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container"> 
+  <!-- BEGIN SIDEBAR --> 
+  
+  <!-- END SIDEBAR --> 
+  <!-- BEGIN PAGE -->
+  <div class="page-content">
+    <div class="row whitebg">
+      <div class="col-md-12 martop container"> <img class="img-responsive" src="assets/img/bg/hinh_goc.png" alt="">
+        <h3 class="page-title-sign"> Don't have a 2pretty account? <a  href="signin-box-fixed.html">Sign In now</a> </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 pull-center container">
+        <ul class="signup-mam">
+          <li>
+            <button type="button" class="btn faceS" ><i class="icon-facebook"></i> Sign Up with Facebook</button>
+          </li>
+          <li>
+            <button type="button" class="btn twistS" ><i class="icon-twitter"></i> Sign Up with Twitter</button>
+          </li>
+          <li>
+            <button type="button" class="btn vkS" ><i class="icon-vk"></i>Sign Up with VK</button>
+          </li>
+          <li>
+            <button type="button" class="btn meoS"  data-toggle="modal" href="#sign-up"><i class="icon-envelope"></i>Sign Up with Email</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 pull-center container">
+        <div class="col-md-6">
+          <div class="friend-blocks">
+            <h3>Join Your Friends</h3>
+            <div class="inside"> <a href="#"><i class="icon-facebook-sign"></i></a> <a href="#">Susie Maik</a>, <a href="#">Nora Sure</a> and 8 other Friends use <a href="#">2Pretty</a> </div>
+            <ul class="list-inline blog-images-inside">
+              <li class="first"><a href="#"><img src="assets/img/blog/3.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/4.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/5.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/6.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/8.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/10.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/11.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/1.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/2.jpg" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/blog/7.jpg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="friend-blocks">
+            <h3>Don’t Worry</h3>
+            <p><i class="icon-ring_arlet" aria-hidden="true"></i>We will never post on your Profile 
+              without permission, spam your friends or 
+              share your private Data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    
+    <!-- Modals--> 
+    
+<!-- /.modal  sign in-->
+    <div class="modal fade modal-dialog modal-sign-in" id="sign-in" data-focus-on="input:first" style="display: none;">
+      
+        <div class="modal-content">
+          <div class="modal-body"> 
+            <!-- BEGIN LOGIN FORM -->
+            <form class="reg-form" action="#" method="post">
+              <h3 class="form-title">SIGN IN WITH YOUR PASSWORD</h3>
+              <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Requested Username</label>
+                <div class="input-icon"> <i class="icon-user"></i>
+                  <input class="form-control placeholder-no-fix" type="text" placeholder="Requested Username" name="fullname"/>
+                </div>
+              </div>
+              <div class="form-group"> 
+                <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                <label class="control-label visible-ie8 visible-ie9">Password</label>
+                <div class="input-icon"> <i class="icon-key"></i>
+                  <input class="form-control placeholder-no-fix" type="text" placeholder="Password" name="password"/>
+                </div>
+              </div>
+              <div class="form-group endform">
+                <div class="checkbox-list">
+                  <label>
+                    <input type="checkbox">
+                    Remember me </label>
+                  <span class="text-right"> <a href="#">Forgot Password</a></span> </div>
+              </div>
+            </form>
+            <!-- END LOGIN FORM --> 
+          </div>
+          <div class="modal-div">
+            <div class="divider"></div>
+          </div>
+          <div class="modal-footer">
+            <label> Need an account? <a  data-toggle="modal" href="#sign-up"> Sign Up</a> </label>
+            <button type="button" class="btn blue"  data-dismiss="modal">Sign In</button>
+          </div>
+        </div>
+        <!-- /.modal-content --> 
+      
+      <!-- /.modal-dialog --> 
+    </div>
+    <!-- /.modal --> 
+    
+    <!--modal sign up-->
+    <div class="modal fade modal-dialog modal-sign-up" id="sign-up" tabindex="-1" data-focus-on="input:first" aria-hidden="true">
+     
+        <div class="modal-content">
+          <div class="modal-body"> 
+            <!-- BEGIN LOGIN FORM -->
+            <form class="reg-form" action="#" method="post">
+              <h3 class="form-title">SIGN UP WITH EMAIL</h3>
+              <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Your Name</label>
+                <div class="input-icon"> <i class="icon-user"></i>
+                  <input class="form-control placeholder-no-fix" type="text" data-tabindex="1" placeholder="Your Name" name="fullname"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Please choose a Username</label>
+                <div class="input-icon"> <i class="icon-user"></i>
+                  <input class="form-control placeholder-no-fix" type="text" data-tabindex="2" placeholder="Your Name" name="fullname"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Email</label>
+                <div class="input-icon"> <i class="icon-envelope"></i>
+                  <input class="form-control placeholder-no-fix" type="text" placeholder="Email " name="Email"/>
+                </div>
+              </div>
+              <div class="form-group endform"> 
+                <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                <label class="control-label visible-ie8 visible-ie9">Password</label>
+                <div class="input-icon"> <i class="icon-key"></i>
+                  <input class="form-control placeholder-no-fix" type="text" placeholder="Password" name="password"/>
+                </div>
+              </div>
+            </form>
+            <!-- END LOGIN FORM --> 
+          </div>
+          <div class="modal-div">
+            <div class="divider"></div>
+          </div>
+          <div class="modal-footer">
+            <label> By creating an account, 
+              you confirm that you have read and 
+              agree with the <a href="#"> Terms of Service </a> </label>
+            <button type="button" class="btn blue"  data-dismiss="modal">Sign Up</button>
+          </div>
+        </div>
+        <!-- /.modal-content --> 
+
+      <!-- /.modal-dialog --> 
+    </div>
+    <!--end modal sign up-->
+    
+    <!-- /.modal --> 
+    
+    <!--end- Modals --> 
+    
+  </div>
+  <!-- END PAGE --> 
+</div>
+<!-- END CONTAINER --> 
+<!-- BEGIN FOOTER --> 
+
+<!-- END FOOTER --> 
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) --> 
+<!-- BEGIN CORE PLUGINS --> 
+<!--[if lt IE 9]>
+   <script src="assets/plugins/respond.min.js"></script>
+   <script src="assets/plugins/excanvas.min.js"></script> 
+   
+   
+   <![endif]--> 
+
+<!--[if IE]>
+   <link href="assets/css/customie.css" rel="stylesheet" type="text/css"/>
+   <![endif]--> 
+<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script> 
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip --> 
+
+<!--animation --> 
+
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script> 
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script> 
+<!-- END CORE PLUGINS --> 
+<!-- BEGIN PAGE LEVEL PLUGINS --> 
+<script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script>
+<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script>
+<!-- END PAGE LEVEL PLUGINS --> 
+
+<!-- END PAGE LEVEL PLUGINS --> 
+<!-- BEGIN PAGE LEVEL SCRIPTS --> 
+<script src="assets/scripts/app.js" type="text/javascript"></script> 
+<script src="assets/scripts/ui-extended-modals.js"></script> 
+<!-- END PAGE LEVEL SCRIPTS --> 
+
+<script>
+$(document).ready(function(){
+ $(this).scrollTop(0);
+ $(window).scroll(function(){
+  var y = $(window).scrollTop();
+  if( y > 0 ){
+      
+	   $("#top-shadow").addClass("topsha");
+	   $("#right-slide").addClass("rightsha");
+  } else {
+      
+	  $("#top-shadow").removeClass("topsha");
+	  $("#right-slide").removeClass("rightsha");
+  }
+ });
+})
+</script> 
+<script>
+      jQuery(document).ready(function() {    
+         App.init(); // initlayout and core plugins
+       
+        
+		 
+      });
+   </script> 
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

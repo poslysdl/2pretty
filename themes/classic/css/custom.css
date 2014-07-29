@@ -1,0 +1,88 @@
+/* here you can put your own css to customize and override the theme */
+.dropdown-menu.extended li a
+{
+	padding: 0px !important;
+}
+.carousel-indicators .bx-wrapper.active
+{
+	background: none;
+    height: auto !important;
+    margin: auto !important;
+    width: auto !important;
+}
+.carousel.image-carousel .carousel-indicators li, .carousel.image-carousel .carousel-indicators li.active
+{
+	background: none;
+}
+.deletemagazine{
+	z-index: 999;
+}
+.errorMessage {
+	color:red;
+}
+.grid li{
+	opacity: 1;
+}
+
+.progress { position:relative; width:100%; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; display:inline-block; top:3px; left:48%; }
+
+.carousel.image-carousel .carousel-indicators {
+	height:65px;
+}
+.carousel.image-carousel .dynamic-carousel-indicators{
+	height: 80px;
+}
+.share-image .portlet-body .main-img-user .dynamic-carousel-indicators li{
+	height: 65px;
+}
+#add-image-index .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]
+{
+	margin-left:0;
+}
+#add-image-index .albumsradio
+{
+	float: left;
+
+}
+#add-image-index .row
+{
+	margin-top:5px;
+}
+#add-image-index .addalbum
+{
+	display: none;
+}
+#add-image-index.modal
+{
+	width:600px;
+	margin-left: -330px;
+}
+#add-image-index #error-status
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+#uploadfiles label
+{
+	font-size: 12px;
+}
+.loader
+{
+	background-image: url('../img/loader.GIF');
+	background-repeat: no-repeat;
+	line-height: 50px;
+	background-position: center;
+	height: 50px;
+	padding: 10px 0px;
+}
+.nomore
+{
+	line-height: 30px;
+	height: 50px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 0;
+}

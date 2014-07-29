@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8" />
+<title>2Pretty</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<meta name="MobileOptimized" content="320">
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/2prettyicon/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/css/style-2pretty.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/animate2.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed">
+<!-- BEGIN HEADER -->
+
+<div class="header navbar navbar-inverse navbar-fixed-top"> 
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="header-inner">
+  
+  <!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+  <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <img src="assets/img/menu-toggler.png" alt="" /> </a> 
+  <!-- END RESPONSIVE MENU TOGGLER --> 
+  
+  <!-- BEGIN LOGO --> 
+  <a class="navbar-brand" href="index.html" >
+  <div class="fs1" aria-hidden="true" data-icon="&#xe0bc;"></div>
+  </a> 
+  <!-- END LOGO --> 
+  <!--TOP MENU-->
+  <ul class="nav navbar-nav pull-left hidden-xs hidden-small">
+    <li><a class="menu" href="#">Home</a></li>
+    <li><a class="menu" href="#">Forum</a></li>
+    <li><a class="menu" href="#">Pretty-Blog</a></li>
+  </ul>
+  <!--END TOP MENU--> 
+  
+  <!-- BEGIN TOP NAVIGATION MENU -->
+  <ul class="nav navbar-nav pull-right">
+    
+    <!-- BEGIN INBOX DROPDOWN -->
+    <li class="dropdown" id="header_inbox_bar"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                  data-close-others="true"> <i class="icon-envelope"></i> <span class="badge">5</span> </a>
+      <ul class="dropdown-menu extended inbox">
+        <li>
+          <ul class="dropdown-menu-list scroller" style="height: 281px;">
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">Lisa Wong</span> <span class="time">Just Now</span> </span> <span class="message"> Vivamus sed auctor nibh nibh auctor nibh congue </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar3.jpg" alt=""/></span> <span class="subject"> <span class="from">Richard Doe</span> <span class="time">16 mins</span> </span> <span class="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar1.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+          </ul>
+        </li>
+        <li class="external"> <a href="inbox.html">See all messages <i class="icon-arrow-right-light"></i></a> </li>
+      </ul>
+    </li>
+    <!-- END INBOX DROPDOWN --> 
+    
+    <!-- BEGIN NOTIFICATION DROPDOWN -->
+    <li class="dropdown" id="header_notification_bar"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                  data-close-others="true"> <i class="icon-megaphone"></i> <span class="badge">6</span> </a>
+      <ul class="dropdown-menu extended inbox">
+        <li>
+          <ul class="dropdown-menu-list scroller" style="height: 281px;">
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">Lisa Wong</span> <span class="time">Just Now</span> </span> <span class="message"> Vivamus sed auctor nibh nibh auctor nibh congue </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar3.jpg" alt=""/></span> <span class="subject"> <span class="from">Richard Doe</span> <span class="time">16 mins</span> </span> <span class="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar1.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+            <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+              auctor nibh... </span> </a> </li>
+          </ul>
+        </li>
+        <li class="external"> <a href="#">See all notifications <i class="icon-arrow-right-light"></i></a> </li>
+      </ul>
+    </li>
+    <!-- END NOTIFICATION DROPDOWN --> 
+    <!-- BEGIN USER LOGIN DROPDOWN -->
+    <li class="dropdown user"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true"> <img class="avatar-user img-responsive"  alt="" src="assets/img/avatar1_small.jpg"/> <span class="username"></span> <i class="icon-caret-down"></i> </a>
+      <ul class="dropdown-menu">
+        <li><a class="gren" href="#"> My Profile</a> </li>
+        <li><a class="gren" href="#"> My Calendar</a> </li>
+        <li><a class="gren" href="#"> My Inbox <span class="badge badge-danger">3</span></a> </li>
+        <li><a class="gren" href="#"> My Tasks <span class="badge badge-success">7</span></a> </li>
+        <li class="divider"></li>
+        <li><a class="gren" href="#">Lock Screen</a> </li>
+        <li><a class="gren" href="#"> Log Out</a> </li>
+      </ul>
+    </li>
+    <!-- END USER LOGIN DROPDOWN --> 
+    <!-- BEGIN SEARCH FROM -->
+    
+    <li class="searchbox hidden-mobi"> 
+      <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+      <form class="sidebar-search" action="extra_search.html" method="POST">
+        <div class="form-container">
+          <input type="text" placeholder="Search for tag and user"/>
+          <input type="button" class="submit" value="&#xe058;"/>
+        </div>
+        </div>
+      </form>
+      <!-- END RESPONSIVE QUICK SEARCH FORM --> 
+    </li>
+    <!-- BEGIN SEARCH FROM -->
+  </ul>
+  <!-- END TOP NAVIGATION MENU --> 
+</div>
+<!-- END TOP NAVIGATION BAR -->
+</div>
+<!-- END HEADER --> 
+
+<!--SUB HEADER-->
+<div id="top-shadow" class="headersub navbar navbar-inverse navbar-fixed-topsub"> 
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="header-inner">
+    <div class="row hidden-small">
+      <div class="col-lg-3b">
+        <ul class="nav pull-left fixmar">
+          <!-- CAPTION MEMBER -->
+          <li class="dropdown"> <a class="dropdown-toggle caption" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="#"><i class="icon-star"></i>TOP MEMBER</a>
+            <ul class="dropdown-menu extended inbox topmem">
+              <li class="margintop marginbot">
+                <div class="rowb">
+                  <div class="col-sm-6b"> <a href="#"> <span class="top-mem"><i class="icon-star"></i>TOP MEMBER</span> <span class="desp">Find out who are the most beautiful People on our Planet</span> </a> </div>
+                  <div class="col-sm-6b"> <a href="#"> <span class="top-mem"><i class="icon-heart"></i>Friends</span> <span class="desp">See how the people who you are following are performing </span> </a> </div>
+                  <div class="col-sm-6b"> <a href="#"> <span class="top-mem"><i class="icon-stats"></i>Going Viral</span> <span class="desp">Most Recently liked, shared, commented and followed</span> </a> </div>
+                  <div class="col-sm-6b"> <a href="#"> <span class="top-mem"><i class="icon-people"></i>New Member</span> <span class="desp">Walecome our Fresh Faces with a big like </span> </a> </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- END CAPTION MEMBER -->
+        </ul>
+      </div>
+      <div class="col-lg-3b pull-center">
+        <ul class="nav">
+          <li class="dropdown"> 
+            <!-- CAPTION LOCATION --> 
+            <a class="dropdown-toggle caption" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="#"><i class="icon-map-marker"></i>Monaco</a>
+            <ul data-delay="1000" class="dropdown-menu extended loc">
+              <li >
+                <div class="rowb">
+                  <div class="gender-lo"> <a href="#"> <span class="badge"><i class="icon-female" aria-hidden="true"></i></span> </a> <a href="#"> <span class="badge"><i class="icon-male" aria-hidden="true"></i></span> </a></div>
+                  <div class="country-lo"><span class="text">From</span><i class="icon-map-marker"></i>
+                    <div class="btn-group">
+                      <button class="btn btn-default" type="button">Germany</button>
+                      <button data-close-others="false" data-delay="1000" data-hover="dropdown" data-toggle="dropdown" class="btn btn-defaultb dropdown-toggle part-right" type="button"><i class="icon-caret-down"></i></button>
+                      <ul data-delay="1000" role="menu" class="dropdown-menu">
+                        <li class="row1">
+                          <div class="gey">
+                            <ul>
+                              <li><a href="#">Countries Nearby...</a></li>
+                            </ul>
+                          </div>
+                          <div class="white">
+                            <ul>
+                              <li><a href="#">Belgium</a></li>
+                              <li><a href="#">Denmark</a></li>
+                              <li><a href="#">France</a></li>
+                              <li><a href="#">Luxembourg</a></li>
+                              <li><a href="#">Netherlands</a></li>
+                              <li><a href="#">Switzerland</a></li>
+                              <li>&nbsp;</li>
+                              <li><a class="green" data-target="#full-width" data-toggle="modal">Browse all Countries</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="row2">
+                          <div class="gey">
+                            <ul>
+                              <li><a href="#">Currently Viewing</a></li>
+                            </ul>
+                          </div>
+                          <div class="white">
+                            <ul>
+                              <li><a href="#">Germany</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="button-lo">
+                    <div class="addbut">
+                      <input type="submit" value="Start Search" class="le-button">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- END LOCATION --> 
+            
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3b "> 
+        
+        <!-- CAPTION UPLOAD -->
+        
+        <ul class="nav pull-right fixwidth2">
+          <li class="dropdown"> 
+            <!-- CAPTION LOCATION --> 
+            <a class="dropdown-toggle caption" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="#"><i class="icon-upload-2"></i>Upload Image</a>
+            <ul class="dropdown-menu extended upload">
+              <li >
+                <div class="rowb">
+                  <div class="but-up">
+                    <div class="addbut">
+                      <input type="submit" value="Choose a File" class="le-button">
+                    </div>
+                  </div>
+                  <div class="grab-up"> <a href="#"> <span class="badge"><i class="icon-pictures" aria-hidden="true"></i></span> Drag n' Drop your Photos </a> </div>
+                  <div class="fac-up"> <a href="#"> <i class="icon-facebook-sign" aria-hidden="true"></i> <span>Or select an image from your Facebook albums</span> </a> </div>
+                </div>
+              </li>
+            </ul>
+            <!-- END LOCATION --> 
+            
+          </li>
+        </ul>
+        
+        <!-- END UPLOAD --> 
+        
+      </div>
+      <div class="col-lg-3b hidden-xs hidden-sm"> 
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <ul class="nav navbar-nav pull-right fixwidth">
+          
+          <!-- BEGIN Quick Search--> 
+          
+          <!-- END USER LOGIN DROPDOWN -->
+        </ul>
+        <!-- END TOP NAVIGATION MENU --> 
+      </div>
+    </div>
+    
+    <!--END LEFT ICON--> 
+    
+  </div>
+  <!-- END TOP NAVIGATION BAR --> 
+</div>
+<!--end sub header-->
+
+<div class="clearfix"></div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container"> 
+  <!-- BEGIN SIDEBAR -->
+  <div id="right-slide" class="page-sidebar navbar-collapse collapse">
+    <div class="mosota">
+      <div class="dropdown-menu-list scrollercm" style="height: 960px;"> 
+        
+        <!-- BEGIN SIDEBAR MENU -->
+        <ul class="page-sidebar-menu">
+          <li>
+            <div>
+              <div class="panel">
+                <div class="panel-title">
+                  <h3>Trending Hashtags</h3>
+                </div>
+                <div class="side-tag">
+                  <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="panel">
+              <div class="panel-title" style="transition: 0s; -webkit-transition: 0s;">
+                <h3>2Pretty blog</h3>
+              </div>
+              <div class="footer-panel-content"> <img class="img-responsive" alt="" src="assets/img/gallery/item_img10.jpg">
+                <h5>Hike - Social Apps</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="panel">
+                <div class="panel-title">
+                  <h3>People You May Know</h3>
+                </div>
+                <div class="people">
+                  <ul class="footer-soc">
+                    <li><a class="avan" href="#"> <img src="assets/img/photo1.jpg" alt="" class="avatar-user-m img-responsive"> <span class="username">Nokie</span></a>
+                      <div class="addbut">
+                        <input type="submit" class="le-button" value="+ Add">
+                      </div>
+                    </li>
+                    <li><a class="avan" href="#"> <img src="assets/img/29.jpg" alt="" class="avatar-user-m img-responsive"> <span class="username">Kamasutra</span></a>
+                      <div class="addbut">
+                        <input type="submit" class="le-button" value="+ Add">
+                      </div>
+                    </li>
+                    <li><a class="avan" href="#"> <img src="assets/img/28.jpg" alt="" class="avatar-user-m img-responsive"> <span class="username">Naomi</span></a>
+                      <div class="addbut">
+                        <input type="submit" class="le-button" value="+ Add">
+                      </div>
+                    </li>
+                    <li class="last"><a class="avan" href="#"> <img src="assets/img/30.jpg" alt="" class="avatar-user-m img-responsive"> <span class="username">Sizuka</span></a>
+                      <div class="addbut">
+                        <input type="submit" class="le-button" value="+ Add">
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li style="height:500px;"></li>
+        </ul>
+        <!-- END SIDEBAR MENU --> 
+      </div>
+    </div>
+  </div>
+  <!-- END SIDEBAR --> 
+  <!-- BEGIN PAGE -->
+  <div class="page-content"> 
+    <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM--> 
+    
+    <!-- /.modal --> 
+    <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM--> 
+    <!-- BEGIN STYLE CUSTOMIZER --> 
+    
+    <!-- END BEGIN STYLE CUSTOMIZER --> 
+    <!-- BEGIN PAGE HEADER--> 
+    
+    <!-- END PAGE HEADER--> 
+    <!-- BEGIN DASHBOARD STATS --> 
+    
+    <!-- END DASHBOARD STATS -->
+    
+    <div class="row ">
+      <div class="col-md-6 col-sm-6"> 
+        <!--card1-->
+        <div class="portlet box blue boxshadown">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #1 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image7.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="main-comment"  id="comment">
+                <div class="scrollercm" style="height: 225px;" data-always-visible="1" data-rail-visible1="1">
+                  <ul class="chats">
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar2.jpg" />
+                      <div class="message"> <a href="#" class="name">Lisa Wong</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar3.jpg" />
+                      <div class="message"> <a href="#" class="name">Richard Doe</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar3.jpg" />
+                      <div class="message"> <a href="#" class="name">Richard Doe</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!--card3-->
+        <div class="portlet box blue boxshadown card">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #3 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image6.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart-empty"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!--card5-->
+        <div class="portlet box blue boxshadown card">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #5 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image5.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="main-comment"  id="comment">
+                <div>
+                  <ul class="chats">
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6"> 
+        <!--card2-->
+        <div class="portlet box blue boxshadown">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #2 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image10.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="main-comment"  id="comment">
+                <div >
+                  <ul class="chats">
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar2.jpg" />
+                      <div class="message"> <a href="#" class="name">Lisa Wong</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--card4-->
+        <div class="portlet box blue boxshadown card">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #4 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image9.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart-empty"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!--card6-->
+        
+        <div class="portlet box blue boxshadown card">
+          <div class="portlet-title">
+            <div class="caption"> <img src="assets/img/avatar1_small.jpg" alt="" class="avatar-user-l img-responsive">
+              <div class="cap1"> <a class="username" href="#">Sugargirl</a><span class="user-locaion">Germany, Berlin</span> </div>
+            </div>
+            <div class="rank">
+              <h2> #6 Rank </h2>
+              <span class="arrow"> </span> </div>
+          </div>
+          <div class="portlet-body">
+            <div class="main-img-user view-first"> <img alt="" class="img-responsive" src="assets/img/gallery/image8.jpg">
+              <div class="mask"> <a class="like"><i class="icon-heart"></i></a> </div>
+            </div>
+            <form>
+              <div class="main-tag">
+                <div class="tagcloud"> <a href="#">Gucci</a> <a href="#">Louis Vuitton</a> <a href="#l">Love</a> <a href="#">MC</a> <a href="#">Prada  Maksita</a> <a href="#">D&amp;G</a></div>
+              </div>
+              <div class="main-name"> <i class="icon-heart"></i> <a href="#">Kamasumi Benzo</a> <span>& 95 others like this</span> </div>
+              <div class="main-comment"  id="comment">
+                <div class="scrollercm" style="height: 255px;" data-always-visible="1" data-rail-visible1="1">
+                  <ul class="chats">
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar2.jpg" />
+                      <div class="message"> <a href="#" class="name">Lisa Wong</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar1.jpg" />
+                      <div class="message"> <a href="#" class="name">Ny Nilson</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar3.jpg" />
+                      <div class="message"> <a href="#" class="name">Richard Doe</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                    <li class="in"> <img class="avatar img-responsive" alt="" src="assets/img/avatar3.jpg" />
+                      <div class="message"> <a href="#" class="name">Richard Doe</a> <span class="datetime">@ Jul 25, 2012 11:09</span> <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="comment-form"> <img src="assets/img/avatar1.jpg" alt="" class="avatar img-responsive">
+                <div class="input-cont">
+                  <textarea data-reactid="" value="Write a comment..." placeholder="Write a comment..." title="Write a comment..."  name="add_comment_text_text" id="js_17" aria-owns="js_23" aria-haspopup="true" aria-expanded="false" aria-label="Write a comment..." style="height: 40px;"></textarea>
+                  <!--coder use JS detect height of text to fix size when input like FB--> 
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    
+    <!-- Modals--> 
+    <!-- responsive -->
+    <div id="responsive" class="modal fade" tabindex="-1" data-width="760">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">Responsive</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Some Input</h4>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4>Some More Input</h4>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+            <p>
+              <input class="form-control" type="text">
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+        <button type="button" class="btn blue">Save changes</button>
+      </div>
+    </div>
+    <!-- stackable -->
+    <div id="stack1" class="modal fade" tabindex="-1" data-focus-on="input:first">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">Stack One</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+        <p>One fine body…</p>
+        <p>One fine body…</p>
+        <div class="form-group">
+          <input class="form-control" type="text" data-tabindex="1">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" data-tabindex="2">
+        </div>
+        <button class="btn blue" data-toggle="modal" href="#stack2">Launch modal</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+        <button type="button" class="btn btn-primary">Ok</button>
+      </div>
+    </div>
+    <div id="stack2" class="modal fade" tabindex="-1" data-focus-on="input:first">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">Stack Two</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+        <p>One fine body…</p>
+        <div class="form-group">
+          <input class="form-control" type="text" data-tabindex="1">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" data-tabindex="2">
+        </div>
+        <button class="btn blue" data-toggle="modal" href="#stack3">Launch modal</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+        <button type="button" class="btn red">Ok</button>
+      </div>
+    </div>
+    <div id="stack3" class="modal fade" tabindex="-1" data-focus-on="input:first">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">Stack Three</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+        <input class="form-control" type="text" data-tabindex="1">
+        <input class="form-control" type="text" data-tabindex="2">
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+        <button type="button" class="btn green">Ok</button>
+      </div>
+    </div>
+    <!-- ajax -->
+    <div id="ajax-modal" class="modal fade" tabindex="-1"> </div>
+    <!-- static -->
+    <div id="static" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+      <div class="modal-body">
+        <p>Would you like to continue with some arbitrary task?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn blue">Continue Task</button>
+      </div>
+    </div>
+    <div id="static2" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false" data-attention-animation="false">
+      <div class="modal-body">
+        <p>Would you like to continue with some arbitrary task?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn blue">Continue Task</button>
+      </div>
+    </div>
+    <!-- full width -->
+    <div id="full-width" class="modal container fade" tabindex="-1">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">Full Width</h4>
+      </div>
+      <div class="modal-body">
+        <p>This modal will resize itself to the same dimensions as the container class.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin ipsum ac ante fermentum suscipit. In ac augue non purus accumsan lobortis id sed nibh. Nunc egestas hendrerit ipsum, et porttitor augue volutpat non. Aliquam erat volutpat. Vestibulum scelerisque lobortis pulvinar. Aenean hendrerit risus neque, eget tincidunt leo. Vestibulum est tortor, commodo nec cursus nec, vestibulum vel nibh. Morbi elit magna, ornare placerat euismod semper, dignissim vel odio. Phasellus elementum quam eu ipsum euismod pretium.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+        <button type="button" class="btn blue">Save changes</button>
+      </div>
+    </div>
+    <!-- long modals -->
+    <div id="long" class="modal fade" tabindex="-1" data-replace="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title">A Fairly Long Modal</h4>
+      </div>
+      <div class="modal-body"> <img style="height: 800px" src="http://i.imgur.com/KwPYo.jpg"> </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+      </div>
+    </div>
+    <!--end- Modals --> 
+    
+  </div>
+  <!-- END PAGE --> 
+</div>
+<!-- END CONTAINER --> 
+<!-- BEGIN FOOTER --> 
+
+<!-- END FOOTER --> 
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) --> 
+<!-- BEGIN CORE PLUGINS --> 
+<!--[if lt IE 9]>
+   <script src="assets/plugins/respond.min.js"></script>
+   <script src="assets/plugins/excanvas.min.js"></script> 
+   
+   
+   <![endif]--> 
+
+<!--[if IE]>
+   <link href="assets/css/customie.css" rel="stylesheet" type="text/css"/>
+   <![endif]--> 
+<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script> 
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip --> 
+<script src="assets/scripts/jquery.appear.js" type="text/javascript"></script> 
+<!--animation --> 
+
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script> 
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script> 
+<!-- END CORE PLUGINS --> 
+<!-- BEGIN PAGE LEVEL PLUGINS --> 
+
+<!-- END PAGE LEVEL PLUGINS --> 
+<script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script> 
+<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script> 
+<!-- END PAGE LEVEL PLUGINS --> 
+<!-- BEGIN PAGE LEVEL SCRIPTS --> 
+<script src="assets/scripts/app.js" type="text/javascript"></script> 
+<script src="assets/scripts/index.js" type="text/javascript"></script> 
+<script src="assets/scripts/ui-extended-modals.js"></script> 
+
+<!-- END PAGE LEVEL SCRIPTS --> 
+
+<script type='text/javascript'>
+		$(function() {
+		  $(document.body).on('appear', '.card', function(e, $affected) {
+		    // add class called “appeared” for each appeared element
+		    $(this).addClass("appeared");
+		  });
+		  $('.card').appear({force_process: true});
+		});
+	</script> 
+<script>
+$(document).ready(function(){
+ $(this).scrollTop(0);
+ $(window).scroll(function(){
+  var y = $(window).scrollTop();
+  if( y > 0 ){
+      
+	   $("#top-shadow").addClass("topsha");
+	   $("#right-slide").addClass("rightsha");
+  } else {
+      
+	  $("#top-shadow").removeClass("topsha");
+	  $("#right-slide").removeClass("rightsha");
+  }
+ });
+})
+</script> 
+<script>
+      jQuery(document).ready(function() {    
+         App.init(); // initlayout and core plugins
+         Index.init();
+         UIExtendedModals.init();
+		 
+      });
+   </script> 
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

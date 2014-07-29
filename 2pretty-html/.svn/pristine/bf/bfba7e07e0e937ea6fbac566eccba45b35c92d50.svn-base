@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8" />
+<title>2Pretty</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<meta name="MobileOptimized" content="320">
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/2prettyicon/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2_metro.css" />
+<link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-switch/static/stylesheets/bootstrap-switch.css"/>
+
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/css/style-2pretty.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-boxed">
+<!-- BEGIN HEADER -->
+
+<div id="top-shadow" class="header navbar navbar-inverse navbar-fixed-top"> 
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="header-inner container paddmore"> 
+    <!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+    <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <img src="assets/img/menu-toggler.png" alt="" /> </a> 
+    <!-- END RESPONSIVE MENU TOGGLER --> 
+    
+    <!-- BEGIN LOGO --> 
+    <a class="navbar-brand" href="index.html" >
+    <div class="fs1" aria-hidden="true" data-icon="&#xe0ee;"></div>
+    </a> 
+    <!-- END LOGO --> 
+    <!--TOP MENU-->
+    <ul class="nav navbar-nav pull-left hidden-xs hidden-small">
+      <li><a class="menu" href="#">Home</a></li>
+      <li><a class="menu" href="#">Forum</a></li>
+      <li><a class="menu" href="#">Pretty-Blog</a></li>
+    </ul>
+    <!--END TOP MENU--> 
+    
+    <!-- BEGIN TOP NAVIGATION MENU -->
+    <ul class="nav navbar-nav pull-right">
+      
+      <!-- BEGIN INBOX DROPDOWN -->
+      <li class="dropdown" id="header_inbox_bar"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                  data-close-others="true"> <i class="icon-envelope"></i> <span class="badge">5</span> </a>
+        <ul class="dropdown-menu extended inbox">
+          <li>
+            <ul class="dropdown-menu-list scroller" style="height: 205px;">
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">Lisa Wong</span> <span class="time">Just Now</span> </span> <span class="message"> Vivamus sed auctor nibh nibh auctor nibh congue </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar3.jpg" alt=""/></span> <span class="subject"> <span class="from">Richard Doe</span> <span class="time">16 mins</span> </span> <span class="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar1.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+            </ul>
+          </li>
+          <li class="external canhtop"> <a href="inbox.html">See all messages <i class="icon-arrow-right-light"></i></a> </li>
+        </ul>
+      </li>
+      <!-- END INBOX DROPDOWN --> 
+      
+      <!-- BEGIN NOTIFICATION DROPDOWN -->
+      <li class="dropdown" id="header_notification_bar"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                  data-close-others="true"> <i class="icon-megaphone"></i> <span class="badge">6</span> </a>
+        <ul class="dropdown-menu extended inbox">
+          <li>
+            <ul class="dropdown-menu-list scroller" style="height: 205px;">
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">Lisa Wong</span> <span class="time">Just Now</span> </span> <span class="message"> Vivamus sed auctor nibh nibh auctor nibh congue </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar3.jpg" alt=""/></span> <span class="subject"> <span class="from">Richard Doe</span> <span class="time">16 mins</span> </span> <span class="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="./assets/img/avatar1.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+              <li> <a href="inbox.html?a=view"> <span class="photo"><img class="avatar-user-l img-responsive" src="assets/img/avatar2.jpg" alt=""/></span> <span class="subject"> <span class="from">NY Nilson</span> <span class="time">2 hrs</span> </span> <span class="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh
+                auctor nibh... </span> </a> </li>
+            </ul>
+          </li>
+          <li class="external canhtop"> <a href="#">See all notifications <i class="icon-arrow-right-light"></i></a> </li>
+        </ul>
+      </li>
+      <!-- END NOTIFICATION DROPDOWN --> 
+      <!-- BEGIN USER LOGIN DROPDOWN -->
+      <li class="dropdown user hidden-mobi"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true"> <img class="avatar-user img-responsive"  alt="" src="assets/img/avatar1_small.jpg"/> <span class="username"></span> <i class="icon-caret-down"></i> </a>
+        <ul class="dropdown-menu">
+          <li><a class="gren first" href="#">Your rank</a> </li>
+          <li><a class="gren" href="#"> your albums</a> </li>
+          <li><a class="gren" href="#"> your like</a> </li>
+          <li class="divider"></li>
+          <li><a class="gren" href="#"> find friends</a> </li>
+          <li><a class="gren" href="#"> language</a> </li>
+          <li><a class="gren" href="#"> settings</a> </li>
+          <li class="divider"></li>
+          <li><a class="gren center" href="#">report a problem</a> </li>
+          <li class="buttcen">
+            <button  class="btn meoS" type="button">log out</button>
+          </li>
+        </ul>
+      </li>
+      <!-- END USER LOGIN DROPDOWN --> 
+      <!-- BEGIN SEARCH FROM -->
+      
+      <li class="searchbox hidden-mobi"> 
+        <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+        <form class="sidebar-search" action="extra_search.html" method="POST">
+          <div class="form-container">
+            <input type="text" placeholder="Search for tag and user"/>
+            <input type="button" class="submit" value="&#xe058;"/>
+          </div>
+        </form>
+        <!-- END RESPONSIVE QUICK SEARCH FORM --> 
+      </li>
+      <!-- BEGIN SEARCH FROM -->
+    </ul>
+    <!-- END TOP NAVIGATION MENU --> 
+    <!-- END TOP NAVIGATION MENU --> 
+  </div>
+  <!-- END TOP NAVIGATION BAR --> 
+</div>
+<!-- END HEADER --> 
+
+<!--SUB HEADER--> 
+
+<!--end sub header-->
+
+<div class="clearfix"></div>
+<!-- BEGIN CONTAINER -->
+
+<div class="container">
+  <div class="page-container">
+    <form class="form-horizontal" role="form" id="form_sample_2" action="#">
+      
+      <div class="page-content-accs">
+        <div class="row">
+          <div class="col-md-12"> 
+            <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+            <h3 class="page-title"> Account Settings </h3>
+            
+            <!-- END PAGE TITLE & BREADCRUMB--> 
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-12"> 
+            <!--card1-->
+            <div class="portlet box blue boxshadown">
+              <div class="portlet-title">
+                <div class="caption">
+                  <div class="cap1">
+                    <h3>Basic Info</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body form">
+                <div class="form-body">
+                  <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    You have some form errors. Please check below. </div>
+                  <div class="alert alert-success display-hide">
+                    <button class="close" data-close="alert"></button>
+                    Your form validation is successful! </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Name</label>
+                    <div class="col-md-9">
+                      <div class="input-icon right"> <i class="fa"></i>
+                        <input type="text" class="form-control" name="name" value="Simon" >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Email</label>
+                    <div class="col-md-9">
+                      <div class="input-icon right"> <i class="fa"></i>
+                        <input name="email" type="text" class="form-control" value="chanhny@gmail.com" >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Password</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static-green paddless"> <a href="#">Change your Password here</a></p>
+                      <input style="display:none" type="password" class="form-control"  placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Profile</label>
+                    <div class="col-md-9">
+                      <button href="#"  class="btn white pull-left needmar" >Edit your Profile</button>
+                      <p class="help-block-more">Update your name, your picture, where you are from and other info about you</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Language</label>
+                    <div class="col-md-9">
+                      <select id="form_2_select22" class="form-control select2me" name="options2">
+                        <option value="Option 1">English</option>
+                        <option value="Option 2">Chinese</option>
+                        <option value="Option 3">Kazumi</option>
+                        <option value="Option 4">Japan</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Country</label>
+                    <div class="col-md-9">
+                      <select  id="form_2_select2" class="form-control select2me">
+                        <option value="AF">Afghanistan</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                        <option value="BH">Bahrain</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BB">Barbados</option>
+                        <option value="BY">Belarus</option>
+                        <option value="BE">Belgium</option>
+                        <option value="BZ">Belize</option>
+                        <option value="BJ">Benin</option>
+                        <option value="BM">Bermuda</option>
+                        <option value="BT">Bhutan</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BA">Bosnia and Herzegowina</option>
+                        <option value="BW">Botswana</option>
+                        <option value="BV">Bouvet Island</option>
+                        <option value="BR">Brazil</option>
+                        <option value="IO">British Indian Ocean Territory</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                        <option value="KH">Cambodia</option>
+                        <option value="CM">Cameroon</option>
+                        <option value="CA">Canada</option>
+                        <option value="CV">Cape Verde</option>
+                        <option value="KY">Cayman Islands</option>
+                        <option value="CF">Central African Republic</option>
+                        <option value="TD">Chad</option>
+                        <option value="CL">Chile</option>
+                        <option value="CN">China</option>
+                        <option value="CX">Christmas Island</option>
+                        <option value="CC">Cocos (Keeling) Islands</option>
+                        <option value="CO">Colombia</option>
+                        <option value="KM">Comoros</option>
+                        <option value="CG">Congo</option>
+                        <option value="CD">Congo, the Democratic Republic of the</option>
+                        <option value="CK">Cook Islands</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="CI">Cote d'Ivoire</option>
+                        <option value="HR">Croatia (Hrvatska)</option>
+                        <option value="CU">Cuba</option>
+                        <option value="CY">Cyprus</option>
+                        <option value="CZ">Czech Republic</option>
+                        <option value="DK">Denmark</option>
+                        <option value="DJ">Djibouti</option>
+                        <option value="DM">Dominica</option>
+                        <option value="DO">Dominican Republic</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="EG">Egypt</option>
+                        <option value="SV">El Salvador</option>
+                        <option value="GQ">Equatorial Guinea</option>
+                        <option value="ER">Eritrea</option>
+                        <option value="EE">Estonia</option>
+                        <option value="ET">Ethiopia</option>
+                        <option value="FK">Falkland Islands (Malvinas)</option>
+                        <option value="FO">Faroe Islands</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
+                        <option value="GF">French Guiana</option>
+                        <option value="PF">French Polynesia</option>
+                        <option value="TF">French Southern Territories</option>
+                        <option value="GA">Gabon</option>
+                        <option value="GM">Gambia</option>
+                        <option value="GE">Georgia</option>
+                        <option value="DE">Germany</option>
+                        <option value="GH">Ghana</option>
+                        <option value="GI">Gibraltar</option>
+                        <option value="GR">Greece</option>
+                        <option value="GL">Greenland</option>
+                        <option value="GD">Grenada</option>
+                        <option value="GP">Guadeloupe</option>
+                        <option value="GU">Guam</option>
+                        <option value="GT">Guatemala</option>
+                        <option value="GN">Guinea</option>
+                        <option value="GW">Guinea-Bissau</option>
+                        <option value="GY">Guyana</option>
+                        <option value="HT">Haiti</option>
+                        <option value="HM">Heard and Mc Donald Islands</option>
+                        <option value="VA">Holy See (Vatican City State)</option>
+                        <option value="HN">Honduras</option>
+                        <option value="HK">Hong Kong</option>
+                        <option value="HU">Hungary</option>
+                        <option value="IS">Iceland</option>
+                        <option value="IN">India</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Iran (Islamic Republic of)</option>
+                        <option value="IQ">Iraq</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IL">Israel</option>
+                        <option value="IT">Italy</option>
+                        <option value="JM">Jamaica</option>
+                        <option value="JP">Japan</option>
+                        <option value="JO">Jordan</option>
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KI">Kiribati</option>
+                        <option value="KP">Korea, Democratic People's Republic of</option>
+                        <option value="KR">Korea, Republic of</option>
+                        <option value="KW">Kuwait</option>
+                        <option value="KG">Kyrgyzstan</option>
+                        <option value="LA">Lao People's Democratic Republic</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LB">Lebanon</option>
+                        <option value="LS">Lesotho</option>
+                        <option value="LR">Liberia</option>
+                        <option value="LY">Libyan Arab Jamahiriya</option>
+                        <option value="LI">Liechtenstein</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="LU">Luxembourg</option>
+                        <option value="MO">Macau</option>
+                        <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                        <option value="MG">Madagascar</option>
+                        <option value="MW">Malawi</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MV">Maldives</option>
+                        <option value="ML">Mali</option>
+                        <option value="MT">Malta</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MQ">Martinique</option>
+                        <option value="MR">Mauritania</option>
+                        <option value="MU">Mauritius</option>
+                        <option value="YT">Mayotte</option>
+                        <option value="MX">Mexico</option>
+                        <option value="FM">Micronesia, Federated States of</option>
+                        <option value="MD">Moldova, Republic of</option>
+                        <option value="MC">Monaco</option>
+                        <option value="MN">Mongolia</option>
+                        <option value="MS">Montserrat</option>
+                        <option value="MA">Morocco</option>
+                        <option value="MZ">Mozambique</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="NA">Namibia</option>
+                        <option value="NR">Nauru</option>
+                        <option value="NP">Nepal</option>
+                        <option value="NL">Netherlands</option>
+                        <option value="AN">Netherlands Antilles</option>
+                        <option value="NC">New Caledonia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="NI">Nicaragua</option>
+                        <option value="NE">Niger</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NU">Niue</option>
+                        <option value="NF">Norfolk Island</option>
+                        <option value="MP">Northern Mariana Islands</option>
+                        <option value="NO">Norway</option>
+                        <option value="OM">Oman</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="PW">Palau</option>
+                        <option value="PA">Panama</option>
+                        <option value="PG">Papua New Guinea</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Peru</option>
+                        <option value="PH">Philippines</option>
+                        <option value="PN">Pitcairn</option>
+                        <option value="PL">Poland</option>
+                        <option value="PT">Portugal</option>
+                        <option value="PR">Puerto Rico</option>
+                        <option value="QA">Qatar</option>
+                        <option value="RE">Reunion</option>
+                        <option value="RO">Romania</option>
+                        <option value="RU">Russian Federation</option>
+                        <option value="RW">Rwanda</option>
+                        <option value="KN">Saint Kitts and Nevis</option>
+                        <option value="LC">Saint LUCIA</option>
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+                        <option value="WS">Samoa</option>
+                        <option value="SM">San Marino</option>
+                        <option value="ST">Sao Tome and Principe</option>
+                        <option value="SA">Saudi Arabia</option>
+                        <option value="SN">Senegal</option>
+                        <option value="SC">Seychelles</option>
+                        <option value="SL">Sierra Leone</option>
+                        <option value="SG">Singapore</option>
+                        <option value="SK">Slovakia (Slovak Republic)</option>
+                        <option value="SI">Slovenia</option>
+                        <option value="SB">Solomon Islands</option>
+                        <option value="SO">Somalia</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                        <option value="ES">Spain</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="SH">St. Helena</option>
+                        <option value="PM">St. Pierre and Miquelon</option>
+                        <option value="SD">Sudan</option>
+                        <option value="SR">Suriname</option>
+                        <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                        <option value="SZ">Swaziland</option>
+                        <option value="SE">Sweden</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="SY">Syrian Arab Republic</option>
+                        <option value="TW">Taiwan, Province of China</option>
+                        <option value="TJ">Tajikistan</option>
+                        <option value="TZ">Tanzania, United Republic of</option>
+                        <option value="TH">Thailand</option>
+                        <option value="TG">Togo</option>
+                        <option value="TK">Tokelau</option>
+                        <option value="TO">Tonga</option>
+                        <option value="TT">Trinidad and Tobago</option>
+                        <option value="TN">Tunisia</option>
+                        <option value="TR">Turkey</option>
+                        <option value="TM">Turkmenistan</option>
+                        <option value="TC">Turks and Caicos Islands</option>
+                        <option value="TV">Tuvalu</option>
+                        <option value="UG">Uganda</option>
+                        <option value="UA">Ukraine</option>
+                        <option value="AE">United Arab Emirates</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="US">United States</option>
+                        <option value="UM">United States Minor Outlying Islands</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="UZ">Uzbekistan</option>
+                        <option value="VU">Vanuatu</option>
+                        <option value="VE">Venezuela</option>
+                        <option value="VN">Viet Nam</option>
+                        <option value="VG">Virgin Islands (British)</option>
+                        <option value="VI">Virgin Islands (U.S.)</option>
+                        <option value="WF">Wallis and Futuna Islands</option>
+                        <option value="EH">Western Sahara</option>
+                        <option value="YE">Yemen</option>
+                        <option value="ZM">Zambia</option>
+                        <option value="ZW">Zimbabwe</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">City</label>
+                    <div class="col-md-9">
+                      <select id="form_2_select222" class="form-control select2me" name="options3">
+                        <option value="Option 1">Kasovo</option>
+                        <option value="Option 2">Mosota</option>
+                        <option value="Option 3">Kazumi</option>
+                        <option value="Option 4">Japan</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Etnicity</label>
+                    <div class="col-md-9">
+                      <select id="form_2_select222" class="form-control select2me" name="options3">
+                        <option value="Option 1">-</option>
+                        <option value="Option 2">-</option>
+                        <option value="Option 3">Kazumi</option>
+                        <option value="Option 4">Japan</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Search Privacy</label>
+                    <div class="col-md-9">
+                      <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox" checked class="toggle"/>
+                      </div>
+                      <p class="help-block-more">Keep search engines (e.g. Google) from showing your 2Pretty profile in search results</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Unique URL</label>
+                    <div class="col-md-9">
+                      <div class="input-icon right"> <i class="fa"></i>
+                        <input type="text" class="form-control" name="url"/>
+                      </div>
+                      <span class="help-block">e.g: http://www.2pretty.com/<strong>SimonKing25</strong></span> </div>
+                  </div>
+                </div>
+                <!--sds--> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--dfd-->
+        
+        <div class="row ">
+          <div class="col-md-12"> 
+            <!--card1-->
+            <div class="portlet box blue boxshadown">
+              <div class="portlet-title">
+                <div class="caption">
+                  <div class="cap1">
+                    <h3>Privacy</h3>
+                  </div>
+                </div>
+                <button href="#"  class="btn white pull-right" >Show blocked Users</button>
+              </div>
+              <div class="portlet-body form">
+                <div class="form-body">
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Hide Profile on the search</label>
+                    <div class="col-md-9">
+                      <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox" checked class="toggle"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Activate Autotagging</label>
+                    <div class="col-md-9">
+                      <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  class="toggle"/>
+                      </div>
+                      <p class="help-block-more">Ethnicity</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Can be tagged by other user</label>
+                    <div class="col-md-9">
+                      <div class="make-switch" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox" checked class="toggle"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Who can message me</label>
+                    <div class="col-md-9">
+                      <ul class="checkbox-list">
+                        <li>
+                          <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                            <input type="checkbox"  class="toggle"/>
+                          </div>
+                          <p class="help-block-more">Everybody</p>
+                        </li>
+                        <li>
+                          <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                            <input type="checkbox" checked  class="toggle"/>
+                          </div>
+                          <p class="help-block-more">Follower</p>
+                        </li>
+                        <li>
+                          <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                            <input type="checkbox"  class="toggle"/>
+                          </div>
+                          <p class="help-block-more">Nobody</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--sadas--> 
+            </div>
+          </div>
+        </div>
+        
+        <!--cvc-->
+        
+        <div class="row ">
+          <div class="col-md-12"> 
+            <!--card1-->
+            <div class="portlet box blue boxshadown">
+              <div class="portlet-title">
+                <div class="caption">
+                  <div class="cap1">
+                    <h3>Email Notifications</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body form">
+                <div class="form-body">
+                  <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    You have some form errors. Please check below. </div>
+                  <div class="alert alert-success display-hide">
+                    <button class="close" data-close="alert"></button>
+                    Your form validation is successful! </div>
+                  <div class="form-group">
+                    <label  class="col-md-3 control-label">Email Notifications</label>
+                    <div class="col-md-9">
+                      <div class="make-switch pull-left needmar" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-12 control-label">Recieve an Email when someone</label>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Likes a Picture</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"   class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Follows you</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Comments on a Picture</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"   class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Sends a message</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-md-12 control-label">Recieve an Email when someone</label>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"   class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Weekly Newsletter</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked  class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Feature announcements ans updates</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Weekly Inspiration</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked  class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Invitation to give us feedback</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Picture of the week</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="make-switch pull-left needmar2" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked  class="toggle"/>
+                      </div>
+                      <p class="help-block-more2">Someone of you FB friends join 2Pretty</p>
+                    </div>
+                  </div>
+                </div>
+                <!--sds--> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--sdas--> 
+        
+         <div class="row ">
+          <div class="col-md-12"> 
+            <!--card1-->
+            <div class="portlet box blue boxshadown">
+              <div class="portlet-title">
+                <div class="caption">
+                  <div class="cap1">
+                    <h3>Social Sharing</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="portlet-body form">
+                <div class="form-body">
+                  <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    You have some form errors. Please check below. </div>
+                  <div class="alert alert-success display-hide">
+                    <button class="close" data-close="alert"></button>
+                    Your form validation is successful! </div>
+                    
+                    
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-facebook-sign"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                    Facebook
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white active pull-left needmar fix130" href="#">Connected</button>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group nhommang1">
+                    <label  class="col-md-2 control-label hidden-320 hidden-480 hidden-600 hidden-620" ></label>
+                    <div class="do-mobile">
+                    <div class="col-md-2">
+                    <div class="make-switch pull-left" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                    <label class="control-label">
+                    Photos I Like
+                    </label>
+                    </div>
+                   
+                   </div>
+                   
+                   <div class="do-mobile">
+                    <div class="col-md-2">
+                    <div class="make-switch pull-left" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox" class="toggle"/>
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-3">
+                    
+                     <label class="control-label">
+                    Photos I Like
+                    </label>
+                    </div> 
+                   </div> 
+                  </div>
+                  
+                  
+                  <div class="form-group nhommang1">
+                    <label  class="col-md-2 control-label hidden-320 hidden-480 hidden-600 hidden-620" ></label>
+                    <div class="do-mobile">
+                    <div class="col-md-2">
+                    <div class="make-switch pull-left" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox"  checked class="toggle"/>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                    <label class="control-label">
+                    Comments I make
+                    </label>
+                    </div>
+                   </div>
+                   
+                   <div class="do-mobile">
+                   
+                    <div class="col-md-2">
+                    <div class="make-switch pull-left" data-on="danger" data-off="default"  data-label-icon="icon-reorder">
+                        <input type="checkbox" class="toggle"/>
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-3">
+                    
+                     <label class="control-label">
+                    Albums I favourite
+                    </label>
+                    </div> 
+                    
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <!--diver-->
+                  
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-twitter-sign"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                    Twitter
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white pull-left needmar fix130" href="#">Connect</button>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                    <label class="control-label">
+                    Profile Link
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" value="http://" name="url"/>
+                    </div>
+                  </div>
+                  
+                  
+                  <!--df-->
+                   <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <!--diver-->
+                  
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-google-plus-sign"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                    Google +
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white pull-left needmar fix130" href="#">Connect</button>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                    <label class="control-label">
+                    Profile Link
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" value="http://" name="url"/>
+                    </div>
+                  </div>
+                  
+                  
+                  <!--df-->
+                    <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <!--diver-->
+                  
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-instagram"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                    Instagram
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white pull-left needmar fix130" href="#">Connect</button>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                    <label class="control-label">
+                    Profile Link
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" value="http://" name="url"/>
+                    </div>
+                  </div>
+                  
+                  <!--sdf-->
+                  
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <!--diver-->
+                  
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-pinterest-sign"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                    Pinterest
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white pull-left needmar fix130" href="#">Connect</button>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                    <label class="control-label">
+                    Profile Link
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" value="http://" name="url"/>
+                    </div>
+                  </div>
+                  
+                  <!--sdf-->
+                  
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                  <!--diver-->
+                  
+                  <div class="form-group nhommang">
+                    <label  class="col-md-2 control-label"><i class="icon-vk"></i></label>
+                    
+                    <div class="col-md-2 ctlmbile">
+                    <label class="control-label">
+                   VK
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8 ctlmbile2">
+                     <button class="btn white pull-left needmar fix130" href="#">Connect</button>
+                    </div>
+                  </div>
+                     <div class="form-group">
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                    <label class="control-label">
+                    Profile Link
+                    </label>
+                    </div>
+                    
+                    <div class="col-md-8">
+                     
+                        <input type="text" class="form-control" value="http://" name="url"/>
+                      
+                    </div>
+                  </div>
+                  
+                  <!--sdf-->
+                  
+                </div>
+                <!--sds--> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--end-->
+        <div class="row ">
+          <div class="col-md-12"> 
+            <!--card1-->
+            <div class="portlet botedit">
+              <div class="portlet-title">
+                
+                <button href="#"  class="btn white pull-right" >Deactivate Account</button>
+              </div>
+             
+              <!--sadas--> 
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="page-sidebar-button">
+        <ul class="page-sidebar-menu marktop">
+          <li>
+            <button type="submit"  class="btn cyan accset" >Save</button>
+          </li>
+          <li>
+            <button type="button" class="btn white accset"  >Cancel</button>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- END CONTAINER --> 
+<!-- BEGIN FOOTER --> 
+
+<!-- END FOOTER --> 
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) --> 
+<!-- BEGIN CORE PLUGINS --> 
+<!--[if lt IE 9]>
+   <script src="assets/plugins/respond.min.js"></script>
+   <script src="assets/plugins/excanvas.min.js"></script> 
+   
+   
+   <![endif]--> 
+
+<!--[if IE]>
+   <link href="assets/css/customie.css" rel="stylesheet" type="text/css"/>
+   <![endif]--> 
+<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script> 
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip --> 
+
+<!--animation --> 
+
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script> 
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script> 
+<!-- END CORE PLUGINS --> 
+
+<!-- BEGIN PAGE LEVEL PLUGINS --> 
+<script type="text/javascript" src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/jquery-validation/dist/additional-methods.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script> 
+<script src="assets/plugins/bootstrap-switch/static/js/bootstrap-switch.min.js" type="text/javascript" ></script> 
+
+<!-- END PAGE LEVEL PLUGINS --> 
+
+<!-- BEGIN PAGE LEVEL SCRIPTS --> 
+<script src="assets/scripts/app.js" type="text/javascript"></script> 
+<script src="assets/scripts/form-validation.js"></script> 
+
+<!-- END PAGE LEVEL SCRIPTS --> 
+
+<script>
+$(document).ready(function(){
+ $(this).scrollTop(0);
+ $(window).scroll(function(){
+  var y = $(window).scrollTop();
+  if( y > 0 ){
+      
+	   $("#top-shadow").addClass("topsha");
+	   $("#right-slide").addClass("rightsha");
+  } else {
+      
+	  $("#top-shadow").removeClass("topsha");
+	  $("#right-slide").removeClass("rightsha");
+  }
+ });
+})
+</script> 
+<script>
+      jQuery(document).ready(function() {    
+         App.init(); // initlayout and core plugins        
+		 FormValidation.init();
+		 
+      });
+   </script> 
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
